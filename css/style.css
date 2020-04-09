@@ -6,15 +6,26 @@ body
 div.A4{
 background: white;
 display: block;
-margin: 0 auto;
+margin:  0px auto;
 margin-bottom: 0.5cm;
 width: 21cm;
 height: 29.7cm;
+}
+div.A5
+{
+border: 2.2px solid black;
+background: white;
+display: block;
+padding-top: 1.5px;
+margin:  1.5cm 1.5cm 1.5cm 1.5cm;
+width: 18cm;
+height: 26.7cm;
 }
 img.qrcode
 {
   height: 50%;
   width: 50%;
+  border: 4px solid;
 }
 section.sheet{
   text-align: center;
@@ -44,6 +55,6 @@ pre.desi
   font-size: 30px;
   font-stretch: ultra-expanded;
   color: white;
-
+pointer-events: fill;
 font-family: 'Baloo Bhai 2', cursive;
 }
