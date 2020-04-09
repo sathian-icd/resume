@@ -1,23 +1,32 @@
 
 body
 {
+scroll-behavior: smooth;
+}
 
+section.def
+{
+  margin-top: 50px;
+margin-right: 500px;
 }
 div.A4{
 background: white;
 display: block;
-margin:  0px auto;
+margin:  50px auto;
 margin-bottom: 0.5cm;
 width: 21cm;
-height: 29.7cm;
+height: 31cm;
+border-spacing: inherit;
+pointer-events: none;
+scroll-behavior: smooth;
 }
 div.A5
 {
-border: 2.2px solid black;
+border: 2.2px solid white;
 background: white;
 display: block;
 padding-top: 1.5px;
-margin:  1.5cm 1.5cm 1.5cm 1.5cm;
+margin:  1.5cm 2.5cm 1.5cm 1.5cm;
 width: 18cm;
 height: 26.7cm;
 }
@@ -39,22 +48,30 @@ section.sheet{
 }
 pre.name
 {
-text-align: center;
+  text-align: center;
 text-transform: capitalize;
-text-overflow: ellipsis;
 font-size: 45px;
-font-stretch: ultra-expanded;
 color: white;
 font-family: 'Comic Neue', cursive;
+margin-right: -500px;
 }
 pre.desi
 {
   text-align: center;
   text-transform: capitalize;
-  text-overflow: ellipsis;
   font-size: 30px;
-  font-stretch: ultra-expanded;
   color: white;
 pointer-events: fill;
 font-family: 'Baloo Bhai 2', cursive;
+margin-right: -500px;
+}
+#icons{
+  margin-top: 1px;
+  width: 30px;
+  height: 30px;
+}
+#icons-in-page
+{
+  width: 20px;
+  height: 20px;
 }
