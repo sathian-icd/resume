@@ -1,0 +1,49 @@
+
+body
+{
+
+}
+div.A4{
+background: white;
+display: block;
+margin: 0 auto;
+margin-bottom: 0.5cm;
+width: 21cm;
+height: 29.7cm;
+}
+img.qrcode
+{
+  height: 50%;
+  width: 50%;
+}
+section.sheet{
+  text-align: center;
+  background-position: center;
+  background-origin: border-box;
+  width: auto;
+  height: auto;
+  background-color: black;
+  background-repeat: repeat;
+
+}
+pre.name
+{
+text-align: center;
+text-transform: capitalize;
+text-overflow: ellipsis;
+font-size: 45px;
+font-stretch: ultra-expanded;
+color: white;
+font-family: 'Comic Neue', cursive;
+}
+pre.desi
+{
+  text-align: center;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  font-size: 30px;
+  font-stretch: ultra-expanded;
+  color: white;
+
+font-family: 'Baloo Bhai 2', cursive;
+}
