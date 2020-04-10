@@ -146,5 +146,21 @@ div.chart
   height: 0.8cm;
   scroll-behavior: smooth;
 }
-div.ts
-{}
+  div.blur{
+  background: black;
+  display: block;
+  margin:  0px auto;
+  margin-bottom: 0.35cm;
+  width: 21cm;
+  height: 2cm;
+  scroll-behavior: smooth;
+  }
+  div.social{
+  background: black;
+  display: block;
+  margin:  0px auto;
+margin-bottom: 0cm;
+  width: 2cm;
+  height: 1.1cm;
+  scroll-behavior: smooth;
+  }
