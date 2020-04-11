@@ -3,7 +3,7 @@ body
 {
 scroll-behavior: smooth;
 background-image: url("../Images/screen.jpg");
-background-size: 500px;
+background-size: 400px;
 background-repeat: repeat;
 }
 
@@ -16,7 +16,7 @@ div.A4{
 background: white;
 display: block;
 margin:  0px auto;
-margin-bottom: 0.5cm;
+margin-bottom: 1.5cm;
 width: 21cm;
 height: 31cm;
 opacity: 1;
@@ -24,12 +24,12 @@ opacity: 1;
 div.pages
 {
 
-background: rgba(0, 0, 0, 0.8);
+background: rgba(0, 0, 0, 0.78);
 display: block;
-margin:  0px auto;
-margin-bottom: 0cm;
+margin:  40px auto;
+margin-bottom: 1.7cm;
 width: 24cm;
-height: 70.5cm;
+height: 73cm;
 scroll-behavior: smooth;
 }
 div.A5
@@ -41,7 +41,7 @@ border: 2.2px solid white;
 background: white;
 display: block;
 margin:  1cm auto;
-margin-bottom: 0.5cm;
+margin-bottom: 0cm;
 width: 18cm;
 height: 28cm;
 scroll-behavior: smooth;
