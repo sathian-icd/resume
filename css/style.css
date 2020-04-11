@@ -20,8 +20,6 @@ margin-bottom: 0.5cm;
 width: 21cm;
 height: 31cm;
 opacity: 1;
-
-scroll-behavior: smooth;
 }
 div.pages
 {
@@ -75,15 +73,14 @@ scroll-behavior: n0;
 font-family: 'Comic Neue', cursive;
 margin-right: -500px;
 }
-pre.desi
+p.desi
 {
-  text-align: center;
   text-transform: capitalize;
   font-size: 30px;
   color: white;
   scroll-behavior: no;
 font-family: 'Baloo Bhai 2', cursive;
-margin-right: -500px;
+margin-right: -550px;
 }
 #icons{
   margin-top: 1px;
