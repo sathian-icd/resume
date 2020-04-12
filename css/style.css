@@ -2,8 +2,8 @@
 body
 {
 scroll-behavior: smooth;
-background-image: url("../Images/screen.jpg");
-background-size: 400px;
+background-image: url("../Images/3.jpg");
+background-size: 100%;
 background-repeat: repeat;
 }
 
@@ -18,19 +18,37 @@ display: block;
 margin:  0px auto;
 margin-bottom: 1.5cm;
 width: 21cm;
-height: 31cm;
+height: 65cm;
 opacity: 1;
 }
 div.pages
 {
 
-background: rgba(0, 0, 0, 0.78);
+background: rgba(0, 0, 0, 0.6);
 display: block;
-margin:  40px auto;
-margin-bottom: 1.7cm;
+margin:  80px auto;
+margin-bottom: 1cm;
 width: 24cm;
-height: 73cm;
+height: 76cm;
 scroll-behavior: smooth;
+}
+img.dp1{
+  border-radius: 1000px;
+  align-items: center;
+  align-content: center;
+  height: 210px;
+  width: 210px;
+  border: 5px solid black;
+
+}
+div.imgdp
+{
+  margin-left: 1cm;
+  background: white;
+  display: block;
+  width: 8cm;
+  height: 6.1cm;
+
 }
 div.A5
 {
@@ -43,14 +61,14 @@ display: block;
 margin:  1cm auto;
 margin-bottom: 0cm;
 width: 18cm;
-height: 28cm;
+height: 60cm;
 scroll-behavior: smooth;
 }
 img.qrcode
 {
   height: 50%;
   width: 50%;
-  border: 4px solid;
+  border: 4px solid black;
 }
 section.sheet{
   margin-top: 0px;
@@ -109,7 +127,7 @@ div.top-lefty
   display: block;
   margin-bottom: 0.5cm;
   width: 8.5cm;
-  height: 28cm;
+  height: 60cm;
   margin-left: -0.5cm;
   scroll-behavior: smooth;
 }
@@ -118,11 +136,11 @@ div.top-rity
   border: 2.2px solid white;
   background: white;
   display: block;
-  margin:  -28.5cm auto;
+  margin:  -60.49cm auto;
   margin-bottom: 0.5cm;
   margin-left: 9cm;
   width: 8.5cm;
-  height: 28cm;
+  height: 60cm;
   scroll-behavior: smooth;
 }
 div.main
@@ -166,15 +184,15 @@ div.chart
 }
   div.blur{
   display: block;
-  margin:  0px auto;
-  margin-bottom: 0.35cm;
+  margin:  50px auto;
+  margin-bottom: 0cm;
   width: 21cm;
   height: 2cm;
   scroll-behavior: smooth;
   }
   div.social{
   display: block;
-  margin:  0px auto;
+  margin:  100px auto;
 margin-bottom: 0cm;
   width: 2cm;
   height: 1.1cm;
