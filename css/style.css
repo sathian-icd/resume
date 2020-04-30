@@ -18,18 +18,18 @@ display: block;
 margin:  0px auto;
 margin-bottom: 1.5cm;
 width: 21cm;
-height: 65cm;
+height: 60cm;
 opacity: 1;
 }
 div.pages
 {
 
-background: rgba(0, 0, 0, 0.6);
+background: rgba(150, 200, 255, 0.5);
 display: block;
 margin:  80px auto;
 margin-bottom: 1cm;
 width: 24cm;
-height: 76cm;
+height: 71cm;
 scroll-behavior: smooth;
 }
 img.dp1{
@@ -61,7 +61,7 @@ display: block;
 margin:  1cm auto;
 margin-bottom: 0cm;
 width: 18cm;
-height: 60cm;
+height: 55cm;
 scroll-behavior: smooth;
 }
 img.qrcode
@@ -72,7 +72,6 @@ img.qrcode
 }
 section.sheet{
   margin-top: 0px;
-
   text-align: center;
   background-position: center;
   background-origin: border-box;
@@ -86,8 +85,8 @@ pre.name
   text-align: center;
 text-transform: capitalize;
 font-size: 45px;
-color: white;
-scroll-behavior: n0;
+color: rgb(0, 30, 255);
+scroll-behavior: no;
 font-family: 'Comic Neue', cursive;
 margin-right: -500px;
 }
@@ -95,10 +94,11 @@ p.desi
 {
   text-transform: capitalize;
   font-size: 30px;
-  color: white;
+  color: rgb(0, 30, 255);
   scroll-behavior: no;
 font-family: 'Baloo Bhai 2', cursive;
 margin-right: -550px;
+font-stretch: extra-expanded;
 }
 #icons{
   margin-top: 1px;
@@ -126,8 +126,9 @@ div.top-lefty
   background: white;
   display: block;
   margin-bottom: 0.5cm;
+  margin-top: 15px;
   width: 8.5cm;
-  height: 60cm;
+  height: 55cm;
   margin-left: -0.5cm;
   scroll-behavior: smooth;
 }
@@ -136,11 +137,11 @@ div.top-rity
   border: 2.2px solid white;
   background: white;
   display: block;
-  margin:  -60.49cm auto;
+  margin:  -56.5cm auto;
   margin-bottom: 0.5cm;
   margin-left: 9cm;
   width: 8.5cm;
-  height: 60cm;
+  height: 55cm;
   scroll-behavior: smooth;
 }
 div.main
@@ -159,6 +160,7 @@ h4.heading
 {
   text-transform: capitalize;
   font-family: 'Baloo Bhai 2', cursive;
+color: rgb(11, 90, 255);
 
 }
 p.para
