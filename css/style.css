@@ -1,212 +1,48 @@
-
-body
-{
-scroll-behavior: smooth;
-background-image: url("../Images/3.jpg");
-background-size: 100%;
-background-repeat: repeat;
-}
-
-section.def
-{
-  margin-top: 0px;
-margin-right: 500px;
-}
-div.A4{
-  border-radius: 10px;
-background: white;
-display: block;
-margin:  0px auto;
-margin-bottom: 1.5cm;
-width: 22cm;
-height: 60cm;
-opacity: 1;
-}
-div.pages
-{
-border-radius: 10px;
-background: rgba(150, 200, 255, 0.5);
-display: block;
-margin:  80px auto;
-margin-bottom: 1cm;
-width: 25cm;
-height: 67cm;
-scroll-behavior: smooth;
-}
-img.dp1{
-  border-radius: 1000px;
-  align-items: center;
-  align-content: center;
-  height: 210px;
-  width: 210px;
-  border: 5px solid black;
-
-}
-div.imgdp
-{
-  margin-left: 1cm;
-  background: white;
-  display: block;
-  width: 8cm;
-  height: 6.1cm;
-
-}
-div.A5
-{
-
-  opacity: 1;
-border: 2.2px solid white;
-background: white;
-display: block;
-margin:  1cm auto;
-margin-bottom: 0cm;
-width: 18cm;
-height: 55cm;
-scroll-behavior: smooth;
-}
-img.qrcode
-{
-  height: 50%;
-  width: 50%;
-  border: 4px solid black;
-}
-section.sheet{
-  margin-top: 0px;
-  border-radius: 30px;
-  text-align: center;
-  background-position: center;
-  background-origin: border-box;
-  width: auto;
-  height: auto;
+body {
+  scroll-behavior: smooth;
+  background-size: 100%;
   background-repeat: repeat;
+}
 
-}
-pre.name
-{
-  text-align: center;
-text-transform: capitalize;
-font-size: 45px;
-color: black;
-scroll-behavior: no;
-font-family: 'Comic Neue', cursive;
-margin-right: -500px;
-}
-p.desi
-{
-  text-transform: capitalize;
-  font-size: 30px;
-  color: black;
-  scroll-behavior: no;
-font-family: 'Baloo Bhai 2', cursive;
-margin-right: -550px;
-font-stretch: extra-expanded;
-}
-#icons{
+#icons {
   margin-top: 1px;
   width: 30px;
   height: 30px;
 }
-#icons-in-page
-{
+
+#icons-in-page {
   width: 20px;
   height: 20px;
 }
-#icons-in-page2
-{
+#icons-in-page2 {
   width: 21px;
   height: 21px;
 }
-pre.mainpage
-{
-  font-family: 'Baloo Bhai 2', cursive;
-  font-size: 20px;
-}
-div.top-lefty
-{
-  border: 2.2px solid white;
-  background: white;
+div.blur {
   display: block;
-  margin-bottom: 0.5cm;
-  margin-top: 15px;
-  width: 8.5cm;
-  height: 55cm;
-  margin-left: -0.7cm;
-  scroll-behavior: smooth;
-}
-div.top-rity
-{
-  border: 2.2px solid white;
-  background: white;
-  display: block;
-  margin-top:  -56.5cm;
-  margin-bottom: 0.5cm;
-  margin-left: 9cm;
-  margin-right: -0.7cm;
-  width: 8.5cm;
-  height: 55cm;
-  scroll-behavior: smooth;
-}
-div.main
-{
-  border: 2.2px solid white;
-
-  background: white;
-  display: block;
-  margin:  10px auto;
-  margin-bottom: 0.5cm;
-  width: 7cm;
-  height: 28cm;
-  scroll-behavior: smooth;
-}
-h4.heading
-{
-  margin-left: -10px;
-  text-transform: capitalize;
-  font-family: 'Baloo Bhai 2', cursive;
-color: rgb(10, 135, 255);
-
-}
-p.para
-{
-  text-align: left;
-}
-#lang
-{
-  font-size: 18px;
-}
-div.chart
-{
-  border: 2.2px solid white;
-
-  background: white;
-  display: block;
-  margin:  -34.5px auto;
-  margin-bottom: 0.5cm;
-  margin-left: 145px;
-  width: 3cm;
-  height: 0.8cm;
-  scroll-behavior: smooth;
-}
-  div.blur{
-  display: block;
-  margin:  50px auto;
+  margin: 50px auto;
   margin-bottom: 3cm;
   width: 21cm;
   height: 2.6cm;
   scroll-behavior: smooth;
-  }
-  div.social{
+}
+div.social {
   display: block;
-  margin:  100px auto;
-margin-bottom: 0cm;
+  margin: 100px auto;
+  margin-bottom: 0cm;
   width: 2cm;
   height: 1.1cm;
   scroll-behavior: smooth;
-  }
-  hr.line{
-    border: 1px solid lightgrey/*rgb(10,90,250)*/;
-     border-radius: 5000px;
-margin-left: -15px;
-margin-right: -10px;
+}
+hr.line {
+  border: 1px solid lightgrey /*rgb(10,90,250)*/;
+  border-radius: 5000px;
+  margin-left: -15px;
+  margin-right: -10px;
+}
 
-  }
+.home{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
